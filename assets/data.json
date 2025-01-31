@@ -4,109 +4,128 @@
       "id": "1",
       "type": "default",
       "data": { "label": "Volkswagen AG" },
-      "position": { "x": 250, "y": 0 }
+      "position": { "x": 250, "y": 0 },
+      "width": 800
     },
     {
       "id": "2",
       "type": "default",
       "data": { "label": "Volkswagen Financial Services AG" },
-      "position": { "x": 250, "y": 100 }
+      "position": { "x": 250, "y": 100 },
+      "width": 800
     },
     {
       "id": "3",
       "type": "default",
       "data": { "label": "Volkswagen Finance Europe B.V." },
-      "position": { "x": 250, "y": 200 }
+      "position": { "x": 250, "y": 200 },
+      "width": 800,
+      "color": "#ccffcc"
     },
     {
       "id": "4",
       "type": "default",
       "data": { "label": "Volkswagen Bank GmbH" },
-      "position": { "x": 600, "y": 100 }
+      "position": { "x": 1300, "y": 100 },
+      "width": 250
     },
     {
       "id": "5",
       "type": "default",
       "data": { "label": "Volkswagen Pon Financial Services B.V." },
-      "position": { "x": 250, "y": 300 }
+      "position": { "x": 250, "y": 300 },
+      "width": 800,
+      "color": "#ffcc00"
     },
     {
       "id": "6",
       "type": "default",
       "data": { "label": "Volkswagen Bank GmbH branch office NL" },
-      "position": { "x": 600, "y": 200 }
+      "position": { "x": 1350, "y": 200 },
+      "color": "#ffff00"
     },
     {
       "id": "7",
       "type": "default",
       "data": { "label": "DFM Verzekeringen B.V." },
-      "position": { "x": 100, "y": 500 }
+      "position": { "x": 250, "y": 500 },
+      "color": "#ffcc00"
     },
     {
       "id": "8",
       "type": "default",
       "data": { "label": "DFM N.V." },
-      "position": { "x": 200, "y": 500 }
+      "position": { "x": 410, "y": 500 },
+      "color": "#ffcc00"
     },
     {
       "id": "9",
       "type": "default",
       "data": { "label": "Lease+Balans B.V." },
-      "position": { "x": 300, "y": 500 }
+      "position": { "x": 580, "y": 500 },
+      "color": "#33cc33"
     },
     {
       "id": "10",
       "type": "default",
       "data": { "label": "Volkswagen Pon Financial Services Real Estate B.V." },
-      "position": { "x": 400, "y": 500 }
+      "position": { "x": 740, "y": 500 },
+      "color": "#33cc33"
     },
     {
       "id": "11",
       "type": "default",
       "data": { "label": "Zuidlease B.V." },
-      "position": { "x": 500, "y": 500 }
+      "position": { "x": 900, "y": 500 },
+      "color": "#33cc33"
     },
     {
       "id": "12",
       "type": "default",
       "data": { "label": "100%" },
-      "position": { "x": 250, "y": 400 }
+      "position": { "x": 600, "y": 400 },
+      "width": 100
     },
     {
       "id": "13",
       "type": "default",
       "data": { "label": "Houdster-maatschappij Wilg B.V." },
-      "position": { "x": 425, "y": 100 }
+      "position": { "x": 1100, "y": 100 }
     },
     {
       "id": "14",
       "type": "default",
       "data": { "label": "Pon Holdings B.V." },
-      "position": { "x": 425, "y": 200 }
+      "position": { "x": 1100, "y": 200 }
     },
     {
       "id": "15",
       "type": "default",
       "data": { "label": "Bank License for conducting payment services in NL - ECB supervision" },
-      "position": { "x": 600, "y": 300 }
+      "position": { "x": 1350, "y": 300 },
+      "color": "#ffff00"
     },
     {
       "id": "16",
       "type": "default",
       "data": { "label": "License for conducting insurance business - Limited supervision by Dutch AFM" },
-      "position": { "x": 100, "y": 600 }
+      "position": { "x": 250, "y": 600 },
+      "color": "#ffcc00"
     },
     {
       "id": "17",
       "type": "default",
       "data": { "label": "License for offering consumer credit - Limited supervision by Dutch AFM" },
-      "position": { "x": 300, "y": 600 }
+      "position": { "x": 410, "y": 600 },
+      "color": "#ffcc00"
     },
     {
       "id": "18",
       "type": "default",
       "data": { "label": "No ECB supervision" },
-      "position": { "x": 500, "y": 600 }
+      "position": { "x": 580, "y": 600 },
+      "width": 470,
+      "color": "#33cc33"
     }
   ],
   "edges": [

@@ -19,3 +19,7 @@ body,
   stroke: black;
   rx: 0;
 }
+
+.react-flow__node {
+  border-radius: 0;
+}

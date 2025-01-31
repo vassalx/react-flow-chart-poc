@@ -1,8 +1,12 @@
 import { Edge, Node, Panel } from "@xyflow/react";
 
+export interface CustomNodeProps extends Node {
+  color?: string;
+}
+
 export interface ImportData {
-    edges: Edge[];
-    nodes: Node[];
+  edges: Edge[];
+  nodes: CustomNodeProps[];
 }
 
 interface UploadButtonProps {
