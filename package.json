@@ -1,8 +1,8 @@
 {
-  "name": "vite-react-flow-template",
+  "name": "react-flow-chart-poc",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vassalx.github.io/react-flow-chart-oc",
+  "homepage": "https://vassalx.github.io/react-flow-chart-poc",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
