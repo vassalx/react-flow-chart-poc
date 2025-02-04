@@ -1,16 +1,13 @@
-import { Edge, Node, Panel } from "@xyflow/react";
-
-export interface CustomNodeProps extends Node {
-  color?: string;
-}
+import { Edge, Node } from "@xyflow/react";
+import { normalizeEdges } from "../common/normalizeEdges";
+import { normalizeNodes } from "../common/normalizeNodes";
 
 export interface ImportData {
   edges: Edge[];
-  nodes: CustomNodeProps[];
+  nodes: Node[];
 }
 
 interface UploadButtonProps {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   handleFileUpload: (data: ImportData) => void;
 }
 
@@ -24,7 +21,10 @@ const UploadButton = (props: UploadButtonProps) => {
         try {
           const result = e.target?.result as string;
           const parsedData = JSON.parse(result);
-          handleFileUpload(parsedData);
+          handleFileUpload({
+            edges: normalizeEdges(parsedData.edges),
+            nodes: normalizeNodes(parsedData.nodes),
+          });
         } catch (error) {
           console.error("Error parsing JSON file:", error);
           alert("Invalid JSON file. Please upload a valid JSON file.");
@@ -35,12 +35,10 @@ const UploadButton = (props: UploadButtonProps) => {
   };
 
   return (
-    <Panel position="top-left">
-      <div>
-        <span>Upload JSON: </span>
-        <input type="file" accept=".json" onChange={handleFileChange} />
-      </div>
-    </Panel>
+    <span>
+      <span>Upload JSON: </span>
+      <input type="file" accept=".json" onChange={handleFileChange} />
+    </span>
   );
 };
 

@@ -23,3 +23,8 @@ body,
 .react-flow__node {
   border-radius: 0;
 }
+
+.react-flow__panel {
+  display: flex;
+  gap: 10px;
+}

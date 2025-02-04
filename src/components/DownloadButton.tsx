@@ -30,7 +30,9 @@ const DownloadButton = () => {
       0
     );
 
-    const viewElement = document.querySelector<HTMLElement>(".react-flow__viewport");
+    const viewElement = document.querySelector<HTMLElement>(
+      ".react-flow__viewport"
+    );
 
     if (viewElement) {
       toPng(viewElement, {
@@ -48,11 +50,14 @@ const DownloadButton = () => {
 
   return (
     <Panel position="top-right">
-      <button className="download-btn" onClick={onClick}>
-        Download Image
-      </button>
+      <input
+        type="button"
+        className="download-btn"
+        onClick={onClick}
+        value="Download Image"
+      />
     </Panel>
   );
-}
+};
 
 export default DownloadButton;
