@@ -13,6 +13,8 @@ body,
 
 .react-flow__handle {
   opacity: 0;
+  width: 0px;
+  height: 0px;
 }
 
 .react-flow__edge-textbg {
@@ -27,4 +29,24 @@ body,
 .react-flow__panel {
   display: flex;
   gap: 10px;
+}
+
+.react-flow {
+  --xy-edge-stroke-default: #000;
+}
+
+.react-flow__handle-top {
+  top: 4px;
+}
+ 
+.react-flow__handle-bottom {
+  bottom: 4px;
+}
+ 
+.react-flow__handle-left {
+  left: 4px;
+}
+ 
+.react-flow__handle-right {
+  right: 4px;
 }

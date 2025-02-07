@@ -403,7 +403,9 @@
       "type": "step",
       "sourceHandle": "left",
       "targetHandle": "right",
-      "lineType": "dashed"
+      "data": {
+        "lineType": "dashed"
+      }
     },
     {
       "id": "e5",
