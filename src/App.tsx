@@ -11,40 +11,38 @@ import {
 import "@xyflow/react/dist/style.css";
 
 import DownloadButton from "./components/DownloadButton";
-import UploadButton, { ImportData } from "./components/UploadButton";
+import UploadButton from "./components/UploadButton";
 import { useState } from "react";
 import { nodeTypes } from "./nodes";
-import { dataExample1, dataExample2 } from "./common/defaultData";
+import { dataExample3 } from "./common/defaultData";
+import { edgeTypes } from "./common/edges";
+import { SelectExample } from "./components/SelectExample";
+import { DiagramData } from "./common/types";
 
 export default function App() {
-  const [nodes, setNodes] = useState<Node[]>(dataExample1.nodes);
-  const [edges, setEdges] = useState<Edge[]>(dataExample1.edges);
+  const [nodes, setNodes] = useState<Node[]>(dataExample3.nodes);
+  const [edges, setEdges] = useState<Edge[]>(dataExample3.edges);
 
-  const handleFileUpload = (data: ImportData) => {
+  const handleSelectFile = (data: DiagramData) => {
     setNodes(data.nodes);
     setEdges(data.edges);
   };
 
-  const handleClickExample1 = () => {
-    setNodes(dataExample1.nodes);
-    setEdges(dataExample1.edges);
-  };
-
-  const handleClickExample2 = () => {
-    setNodes(dataExample2.nodes);
-    setEdges(dataExample2.edges);
-  };
-
   return (
-    <ReactFlow nodes={nodes} edges={edges} fitView nodeTypes={nodeTypes}>
+    <ReactFlow
+      nodes={nodes}
+      edges={edges}
+      fitView
+      nodeTypes={nodeTypes}
+      edgeTypes={edgeTypes}
+    >
       <Background />
       <MiniMap />
       <Controls />
       <DownloadButton />
       <Panel position="top-left">
-        <UploadButton handleFileUpload={handleFileUpload} />
-        <input type="button" className="download-btn" onClick={handleClickExample1} value="View Example 1" />
-        <input type="button" className="download-btn" onClick={handleClickExample2} value="View Example 2" />
+        <UploadButton handleFileUpload={handleSelectFile} />
+        <SelectExample onSelectExample={handleSelectFile} />
       </Panel>
     </ReactFlow>
   );

@@ -1,5 +1,6 @@
 import data1 from "../../assets/data1.json";
 import data2 from "../../assets/data2.json";
+import data3 from "../../assets/data3.json";
 import { normalizeEdges } from "./normalizeEdges";
 import { normalizeNodes } from "./normalizeNodes";
 import { CustomEdgeProps } from "./types";
@@ -14,3 +15,10 @@ export const dataExample2 = {
   edges: normalizeEdges(data2.edges as CustomEdgeProps[]),
   nodes: normalizeNodes(data2.nodes as CustomNodeProps[]),
 };
+
+export const dataExample3 = {
+  edges: normalizeEdges(data3.edges as CustomEdgeProps[]),
+  nodes: normalizeNodes(data3.nodes as CustomNodeProps[]),
+};
+
+export const dataExamples = [dataExample1, dataExample2, dataExample3];

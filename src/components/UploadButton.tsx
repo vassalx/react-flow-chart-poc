@@ -1,14 +1,9 @@
-import { Edge, Node } from "@xyflow/react";
 import { normalizeEdges } from "../common/normalizeEdges";
 import { normalizeNodes } from "../common/normalizeNodes";
-
-export interface ImportData {
-  edges: Edge[];
-  nodes: Node[];
-}
+import { DiagramData } from "../common/types";
 
 interface UploadButtonProps {
-  handleFileUpload: (data: ImportData) => void;
+  handleFileUpload: (data: DiagramData) => void;
 }
 
 const UploadButton = (props: UploadButtonProps) => {
