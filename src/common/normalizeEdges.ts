@@ -8,7 +8,7 @@ const getStrokeDasharrayForEdgeLineType = (lineType?: EdgeLineType): string => {
     case "dotted":
       return "1 4";
     case "solid-dotted":
-      return "40 4 4 4"
+      return "40 4 4 4";
     case "solid":
     default:
       return "";
@@ -20,7 +20,7 @@ export const normalizeEdges = (edges: CustomEdgeProps[]): Edge[] => {
     ...edge,
     style: {
       ...edge.style,
-      strokeDasharray: getStrokeDasharrayForEdgeLineType(edge.lineType),
+      strokeDasharray: getStrokeDasharrayForEdgeLineType(edge.data?.lineType),
     },
   }));
 };

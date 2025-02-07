@@ -499,7 +499,9 @@
       "type": "step",
       "targetHandle": "right",
       "sourceHandle": "right",
-      "lineType": "dashed"
+      "data": {
+        "lineType": "dashed"
+      }
     },
     {
       "id": "e7-14",
@@ -508,7 +510,9 @@
       "type": "step",
       "targetHandle": "right",
       "sourceHandle": "bottom",
-      "lineType": "dotted"
+      "data": {
+        "lineType": "dotted"
+      }
     },
     {
       "id": "e6-13",
@@ -517,7 +521,9 @@
       "type": "step",
       "targetHandle": "right",
       "sourceHandle": "right",
-      "lineType": "solid-dotted"
+      "data": {
+        "lineType": "solid-dotted"
+      }
     },
     {
       "id": "e7-12",
@@ -526,7 +532,9 @@
       "type": "step",
       "targetHandle": "right",
       "sourceHandle": "bottom",
-      "lineType": "dotted"
+      "data": {
+        "lineType": "dotted"
+      }
     },
     {
       "id": "e7-11",
@@ -535,7 +543,9 @@
       "type": "step",
       "targetHandle": "right",
       "sourceHandle": "bottom",
-      "lineType": "dotted"
+      "data": {
+        "lineType": "dotted"
+      }
     },
     {
       "id": "e5-9",
@@ -544,7 +554,9 @@
       "type": "step",
       "targetHandle": "top",
       "sourceHandle": "left",
-      "lineType": "dashed"
+      "data": {
+        "lineType": "dashed"
+      }
     }
   ]
 }

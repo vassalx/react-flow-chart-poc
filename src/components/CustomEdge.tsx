@@ -4,7 +4,7 @@ import {
   type EdgeProps,
   getSmoothStepPath,
 } from "@xyflow/react";
-import { CustomEdgeProps } from "./types";
+import { CustomEdgeProps } from "../common/types";
 
 interface EdgeLabelProps {
   transform: string;

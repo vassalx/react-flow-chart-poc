@@ -3,8 +3,7 @@ import data2 from "../../assets/data2.json";
 import data3 from "../../assets/data3.json";
 import { normalizeEdges } from "./normalizeEdges";
 import { normalizeNodes } from "./normalizeNodes";
-import { CustomEdgeProps } from "./types";
-import { CustomNodeProps } from "../nodes/types";
+import { CustomEdgeProps, CustomNodeProps } from "./types";
 
 export const dataExample1 = {
   edges: normalizeEdges(data1.edges as CustomEdgeProps[]),

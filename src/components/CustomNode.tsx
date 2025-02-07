@@ -4,8 +4,8 @@ import {
   useUpdateNodeInternals,
   type NodeProps,
 } from "@xyflow/react";
-import { CustomHandles, CustomNodeProps } from "./types";
 import { useEffect } from "react";
+import { CustomHandles, CustomNodeProps } from "../common/types";
 
 const defaultHandles: CustomHandles = {
   left: "source",

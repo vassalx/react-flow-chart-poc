@@ -13,11 +13,9 @@ import "@xyflow/react/dist/style.css";
 import DownloadButton from "./components/DownloadButton";
 import UploadButton from "./components/UploadButton";
 import { useState } from "react";
-import { nodeTypes } from "./nodes";
 import { dataExample3 } from "./common/defaultData";
-import { edgeTypes } from "./common/edges";
 import { SelectExample } from "./components/SelectExample";
-import { DiagramData } from "./common/types";
+import { DiagramData, edgeTypes, nodeTypes } from "./common/types";
 
 export default function App() {
   const [nodes, setNodes] = useState<Node[]>(dataExample3.nodes);
