@@ -5,7 +5,7 @@ import { ElkNode } from "elkjs/lib/elk.bundled";
 export type DagreLayoutDirections = "TB" | "LR";
 export type ElkDirectionType = "RIGHT" | "LEFT" | "UP" | "DOWN";
 
-const getElkLayout = async (
+const getElkLayout = async(
   nodes: Node[] = [],
   edges: Edge[] = [],
   direction: ElkDirectionType = "RIGHT"
@@ -34,9 +34,9 @@ const getElkLayout = async (
       "elk.algorithm": "layered",
       "elk.direction": direction,
       "elk.edgeRouting": "POLYLINE",
-      "elk.spacing.nodeNode": "200",
-      "elk.spacing.edgeNode": "200",
-      "elk.layered.spacing.nodeNodeBetweenLayers": "200",
+      "elk.spacing.nodeNode": "100",
+      "elk.spacing.edgeNode": "100",
+      "elk.layered.spacing.nodeNodeBetweenLayers": "100",
     },
     children: nodes.map((node) => ({
       id: node.id,
@@ -44,6 +44,7 @@ const getElkLayout = async (
         x: node.position?.x,
         y: node.position?.y,
       },
+      width: 200,
     })),
     edges: edges.map((edge) => ({
       id: edge.id,

@@ -10,13 +10,12 @@ export const SelectExample = (props: SelectExampleProps) => {
   return (
     <>
       {dataExamples.map((example, index) => (
-        <input
+        <button
           key={index}
           type="button"
-          className="download-btn"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           onClick={() => onSelectExample(example)}
-          value={`View Example ${index + 1}`}
-        />
+        >{`View Example ${index + 1}`}</button>
       ))}
     </>
   );

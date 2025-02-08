@@ -50,12 +50,12 @@ const DownloadButton = () => {
 
   return (
     <Panel position="top-right">
-      <input
-        type="button"
-        className="download-btn"
+      <button
+        className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
         onClick={onClick}
-        value="Download Image"
-      />
+      >
+        Download Image
+      </button>
     </Panel>
   );
 };
