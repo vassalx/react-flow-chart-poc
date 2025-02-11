@@ -31,8 +31,8 @@ export const TreeIcon = (props: TreeIconProps) => {
   return (
     <button
       onClick={handleClick}
-      className={`p-2 h-10 w-10 m-auto border${
-        isSelected ? "-2" : ""
+      className={`p-2 h-10 w-10 m-auto border-${
+        isSelected ? "2" : "4"
       } shadow rounded bg-white hover:bg-gray-300 hover:scale-110`}
     >
       <svg

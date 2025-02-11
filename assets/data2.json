@@ -222,19 +222,19 @@
       "id": "e1-4",
       "source": "1",
       "target": "4",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e2-4",
       "source": "2",
       "target": "4",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e3-4",
       "source": "3",
       "target": "4",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e4-5",
@@ -285,7 +285,7 @@
       "id": "e19-7",
       "source": "19",
       "target": "7",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e6-9",
@@ -426,7 +426,7 @@
       "id": "e6-24",
       "source": "6",
       "target": "24",
-      "type": "step",
+      "type": "custom",
       "data": {
         "lineType": "dashed"
       }
@@ -435,7 +435,7 @@
       "id": "e7-14",
       "source": "7",
       "target": "14",
-      "type": "step",
+      "type": "custom",
       "data": {
         "lineType": "dotted"
       }
@@ -444,7 +444,7 @@
       "id": "e6-13",
       "source": "6",
       "target": "13",
-      "type": "step",
+      "type": "custom",
       "data": {
         "lineType": "solid-dotted"
       }
@@ -453,7 +453,7 @@
       "id": "e7-12",
       "source": "7",
       "target": "12",
-      "type": "step",
+      "type": "custom",
       "data": {
         "lineType": "dotted"
       }
@@ -462,7 +462,7 @@
       "id": "e7-11",
       "source": "7",
       "target": "11",
-      "type": "step",
+      "type": "custom",
       "data": {
         "lineType": "dotted"
       }
@@ -471,7 +471,7 @@
       "id": "e5-9",
       "source": "5",
       "target": "9",
-      "type": "step",
+      "type": "custom",
       "data": {
         "lineType": "dashed"
       }

@@ -86,85 +86,85 @@
       "source": "14",
       "target": "5",
       "label": "40%",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e1-4",
       "source": "1",
       "target": "4",
       "label": "100%",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e2-3",
       "source": "2",
       "target": "3",
       "label": "100%",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e4-6",
       "source": "4",
       "target": "6",
       "label": "Branch office",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e3-5",
       "source": "3",
       "target": "5",
       "label": "60%",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e1-2",
       "source": "1",
       "target": "2",
       "label": "100%",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e5-12",
       "source": "5",
       "target": "12",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e12-7",
       "source": "12",
       "target": "7",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e12-8",
       "source": "12",
       "target": "8",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e12-9",
       "source": "12",
       "target": "9",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e12-10",
       "source": "12",
       "target": "10",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e12-11",
       "source": "12",
       "target": "11",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e13-14",
       "source": "13",
       "target": "14",
       "label": "100%",
-      "type": "step"
+      "type": "custom"
     }
   ]
 }

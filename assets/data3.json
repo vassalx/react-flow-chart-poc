@@ -300,7 +300,7 @@
       "id": "e4",
       "source": "emil_frey_nl",
       "target": "adimo_bv",
-      "type": "step",
+      "type": "custom",
       "data": {
         "lineType": "dashed"
       }
@@ -327,7 +327,7 @@
       "id": "e7",
       "source": "emil_frey_nl",
       "target": "emil_frey_motors",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e8",
@@ -378,31 +378,31 @@
       "id": "e13",
       "source": "terwolde_holding",
       "target": "autobedrijf_oving",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e14",
       "source": "terwolde_holding",
       "target": "autobedrijf_oving_raatle",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e15",
       "source": "terwolde_holding",
       "target": "autobedrijf_oving_hattum",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e16",
       "source": "terwolde_holding",
       "target": "autobedrijf_oving_emmeloord",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e17",
       "source": "emil_frey_motors",
       "target": "emil_frey_schade_service",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e18",
@@ -471,7 +471,7 @@
       "id": "e25",
       "source": "asian_motors_holding",
       "target": "asian_motors_services",
-      "type": "step"
+      "type": "custom"
     },
     {
       "id": "e26",
