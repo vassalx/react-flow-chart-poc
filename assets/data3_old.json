@@ -364,7 +364,7 @@
       "type": "custom",
       "label": "100%",
       "data": {
-        "startLabel": "100%"
+        "sourceLabel": "100%"
       }
     },
     {
@@ -381,7 +381,7 @@
         "height": 20
       },
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -393,7 +393,7 @@
       "sourceHandle": "bottom",
       "targetHandle": "top",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -415,7 +415,7 @@
       "sourceHandle": "bottom",
       "targetHandle": "right",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -426,7 +426,7 @@
       "sourceHandle": "bottom",
       "targetHandle": "right",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -441,7 +441,7 @@
       "target": "mkb_lease",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -451,7 +451,7 @@
       "type": "custom",
       "targetHandle": "right",
       "data": {
-        "endLabel": "50%"
+        "targetLabel": "50%"
       }
     },
     {
@@ -461,7 +461,7 @@
       "type": "custom",
       "targetHandle": "left",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -470,7 +470,7 @@
       "target": "terwolde_holding",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -481,7 +481,7 @@
       "targetHandle": "left",
       "sourceHandle": "left",
       "data": {
-        "startLabel": "100%"
+        "sourceLabel": "100%"
       }
     },
     {
@@ -529,7 +529,7 @@
       "type": "custom",
       "targetHandle": "left",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -538,7 +538,7 @@
       "target": "benzicar",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -548,7 +548,7 @@
       "type": "custom",
       "targetHandle": "left",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -557,7 +557,7 @@
       "target": "wittenberg_de_bois",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -566,7 +566,7 @@
       "target": "wittenberg_amersfoort",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -575,7 +575,7 @@
       "target": "woup_holding",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -585,7 +585,7 @@
       "type": "custom",
       "targetHandle": "left",
       "data": {
-        "startLabel": "100%"
+        "sourceLabel": "100%"
       }
     },
     {
@@ -601,7 +601,7 @@
       "target": "pouw_dealer",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -610,7 +610,7 @@
       "target": "ekris_retail_holding",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -619,7 +619,7 @@
       "target": "nefkens_holding",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -628,7 +628,7 @@
       "target": "nefkens",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -637,7 +637,7 @@
       "target": "de_beijer",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -647,7 +647,7 @@
       "type": "custom",
       "sourceHandle": "right",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -657,7 +657,7 @@
       "type": "custom",
       "sourceHandle": "right",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -667,7 +667,7 @@
       "type": "custom",
       "sourceHandle": "right",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -676,7 +676,7 @@
       "target": "autobedrijf_keram_heerlen",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -685,7 +685,7 @@
       "target": "auto_a_z_heerlen",
       "type": "custom",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -695,7 +695,7 @@
       "type": "custom",
       "targetHandle": "left",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -705,7 +705,7 @@
       "type": "custom",
       "targetHandle": "left",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     },
     {
@@ -715,7 +715,7 @@
       "type": "custom",
       "targetHandle": "left",
       "data": {
-        "endLabel": "100%"
+        "targetLabel": "100%"
       }
     }
   ]

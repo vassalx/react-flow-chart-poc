@@ -31,11 +31,17 @@ const UploadButton = (props: UploadButtonProps) => {
 
   return (
     <span>
-      <span>Upload JSON: </span>
+      <label
+        htmlFor="json"
+        className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded block"
+      >
+        Upload JSON
+      </label>
       <input
-        className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded"
+        id="json"
         type="file"
         accept=".json"
+        className="hidden"
         onChange={handleFileChange}
       />
     </span>

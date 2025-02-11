@@ -57,11 +57,11 @@ const CustomEdge = (props: EdgeProps<CustomEdgeProps>) => {
   });
 
   const getTranslateSourceHandle = () => {
-    switch (sourceHandleId) {
+    switch (sourceHandleId || sourcePosition) {
       case "left":
         return "translate(-100%, -75%)";
       case "bottom":
-        return "translate(50%, 0%)";
+        return "translate(0%, 0%)";
       case "right":
         return "translate(0%, -25%)";
       case "top":
@@ -71,11 +71,11 @@ const CustomEdge = (props: EdgeProps<CustomEdgeProps>) => {
   };
 
   const getTranslateTargetHandle = () => {
-    switch (targetHandleId) {
+    switch (targetHandleId || targetPosition) {
       case "left":
         return "translate(-100%, -25%)";
       case "bottom":
-        return "translate(50%, 25%)";
+        return "translate(0%, 0%)";
       case "right":
         return "translate(0%, -25%)";
       case "top":
@@ -88,16 +88,16 @@ const CustomEdge = (props: EdgeProps<CustomEdgeProps>) => {
     <>
       <BaseEdge path={edgePath} {...edgeProps} />
       <EdgeLabelRenderer>
-        {data?.startLabel && (
+        {data?.sourceLabel && (
           <EdgeLabel
             transform={`${getTranslateSourceHandle()} translate(${sourceX}px,${sourceY}px)`}
-            label={data.startLabel}
+            label={data.sourceLabel}
           />
         )}
-        {data?.endLabel && (
+        {data?.targetLabel && (
           <EdgeLabel
             transform={`${getTranslateTargetHandle()} translate(${targetX}px,${targetY}px)`}
-            label={data.endLabel}
+            label={data.targetLabel}
           />
         )}
       </EdgeLabelRenderer>

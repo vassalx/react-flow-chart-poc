@@ -5,7 +5,7 @@ import { ElkNode } from "elkjs/lib/elk.bundled";
 export type DagreLayoutDirections = "TB" | "LR";
 export type ElkDirectionType = "RIGHT" | "LEFT" | "UP" | "DOWN";
 
-const getElkLayout = async(
+const getElkLayout = async (
   nodes: Node[] = [],
   edges: Edge[] = [],
   direction: ElkDirectionType = "RIGHT"
@@ -43,6 +43,10 @@ const getElkLayout = async(
       "elk.position": {
         x: node.position?.x,
         y: node.position?.y,
+      },
+      layoutOptions: {
+        "layering.layerConstraint":
+          node.data.type === "person" ? "FIRST" : "",
       },
       width: 200,
     })),

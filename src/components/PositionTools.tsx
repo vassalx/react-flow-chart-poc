@@ -8,9 +8,8 @@ interface PositioningToolsProps {
 
 const PositioningTools = (props: PositioningToolsProps) => {
   const { selectedDirection, onSelectDirection } = props;
-  console.log(selectedDirection);
   return (
-    <div className="flex gap-2 absolute top-20 right-5 z-40">
+    <div className="flex gap-2 right-5 z-40">
       <TreeIcon
         direction="LEFT"
         isSelected={selectedDirection === "LEFT"}

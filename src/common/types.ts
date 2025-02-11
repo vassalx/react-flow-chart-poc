@@ -27,8 +27,8 @@ export type CustomNodeProps = Node<
 
 export type CustomEdgeProps = Edge<
   {
-    startLabel?: string;
-    endLabel?: string;
+    sourceLabel?: string;
+    targetLabel?: string;
     lineType?: EdgeLineType;
   },
   "custom"

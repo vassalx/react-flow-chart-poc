@@ -60,15 +60,18 @@ export const LayoutFlow = () => {
       <Background />
       <MiniMap />
       <Controls />
-      <DownloadButton />
-      <Panel position="top-left">
+
+      <Panel position="top-left" className="mr-10">
         <UploadButton handleFileUpload={handleSelectFile} />
         <SelectExample onSelectExample={handleSelectFile} />
+        <DownloadButton />
       </Panel>
-      <PositioningTools
-        selectedDirection={direction}
-        onSelectDirection={(newDirection) => setDirection(newDirection)}
-      />
+      <Panel position="top-right">
+        <PositioningTools
+          selectedDirection={direction}
+          onSelectDirection={(newDirection) => setDirection(newDirection)}
+        />
+      </Panel>
     </ReactFlow>
   );
 };
