@@ -12,6 +12,7 @@ export const normalizeNodes = (nodes: CustomNodeProps[]): Node[] => {
         : node.data.color,
       color: node.data.textColor,
     },
+    position: node.position || { x: 0, y: 0 },
     handles: [{ x: 0, y: 0, position: "left" as Position, type: "source" }],
   }));
 };

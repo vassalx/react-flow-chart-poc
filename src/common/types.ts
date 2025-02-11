@@ -1,6 +1,15 @@
-import { BuiltInEdge, BuiltInNode, Edge, EdgeTypes, HandleType, Node, NodeTypes } from "@xyflow/react";
+import {
+  BuiltInEdge,
+  BuiltInNode,
+  Edge,
+  EdgeTypes,
+  HandleType,
+  Node,
+  NodeTypes,
+} from "@xyflow/react";
 import CustomEdge from "../components/CustomEdge";
 import CustomNode from "../components/CustomNode";
+import { ReactNode } from "react";
 
 export type EdgeLineType = "solid" | "dotted" | "dashed" | "solid-dotted";
 
@@ -17,7 +26,7 @@ export interface CustomHandles {
 
 export type CustomNodeProps = Node<
   {
-    label: string;
+    label: string | ReactNode;
     handles?: CustomHandles;
     color?: string | string[];
     textColor?: string;
@@ -27,8 +36,8 @@ export type CustomNodeProps = Node<
 
 export type CustomEdgeProps = Edge<
   {
-    sourceLabel?: string;
-    targetLabel?: string;
+    sourceLabel?: string | ReactNode;
+    targetLabel?: string | ReactNode;
     lineType?: EdgeLineType;
   },
   "custom"

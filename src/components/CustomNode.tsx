@@ -35,7 +35,7 @@ const CustomNode = (props: NodeProps<CustomNodeProps>) => {
         fontSize: 12,
       }}
     >
-      {label && <div>{label}</div>}
+      {label}
       <>
         <Handle
           type={handles?.bottom || defaultHandles.bottom || "source"}

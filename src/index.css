@@ -52,3 +52,17 @@ body,
 .react-flow__handle-right {
   right: 4px;
 }
+
+.app__custom-edge {
+  position: absolute;
+  background: transparent;
+  padding: 10px;
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+.app__custom-edge__box {
+  background: white;
+  padding: 4px;
+  border: 1px solid black;
+}

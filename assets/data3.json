@@ -4,15 +4,13 @@
       "id": "emil_frey_holding",
       "data": {
         "label": "Emil Frey Holding AG"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "kalono_ag",
       "data": {
         "label": "Kalono AG"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "adimo_bv",
@@ -20,8 +18,7 @@
         "label": "Adimo B.V.",
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "emil_frey_vast",
@@ -29,8 +26,7 @@
         "label": "Emil Frey Vastgoed B.V.",
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "diecar_vastgoed",
@@ -38,8 +34,7 @@
         "label": "Diecar Vastgoed B.V.",
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "emil_frey_nl",
@@ -47,8 +42,7 @@
         "label": "Emil Frey Nederland N.V. (EFN)",
         "color": "#3397a6",
         "textColor": "#fff"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "emil_frey_motors",
@@ -56,8 +50,7 @@
         "label": "Emil Frey Motors B.V. (EFM)",
         "color": "#3397a6",
         "textColor": "#fff"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "mkb_lease",
@@ -65,106 +58,89 @@
         "label": "MKB Lease B.V.",
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "emil_frey_facilitair",
       "data": {
         "label": "Emil Frey Facilitair B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "qoets",
-      "data": { "label": "Qoets B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Qoets B.V." }
     },
     {
       "id": "terwolde_holding",
       "data": {
         "label": "Terwolde Holding B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "terwolde",
-      "data": { "label": "Terwolde B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Terwolde B.V." }
     },
     {
       "id": "autobedrijf_oving",
       "data": {
         "label": "B.V. Autobedrijf Oving"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "autobedrijf_oving_raatle",
       "data": {
         "label": "B.V. Autobedrijf Oving Raalte"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "autobedrijf_oving_hattum",
       "data": {
         "label": "B.V. Autobedrijf Oving Hattum"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "autobedrijf_oving_emmeloord",
       "data": {
         "label": "B.V. Autobedrijf Oving Emmeloord"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "emil_frey_schade_service",
-      "data": { "label": "Emil Frey Schade-Service B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Emil Frey Schade-Service B.V." }
     },
     {
       "id": "elgersma",
-      "data": { "label": "Elgersma B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Elgersma B.V." }
     },
     {
       "id": "benzicar",
-      "data": { "label": "Benzicar B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Benzicar B.V." }
     },
     {
       "id": "asian_motors_holding",
       "data": {
         "label": "Asian Motors Holding B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "asian_motors_sales",
       "data": {
         "label": "Asian Motors Sales B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "asian_motors_services",
       "data": {
         "label": "Asian Motors Services B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "wittenberg_de_bois",
-      "data": { "label": "Wittenberg - De Bois Holding B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Wittenberg - De Bois Holding B.V." }
     },
     {
       "id": "wittenberg_amersfoort",
-      "data": { "label": "Wittenberg Amersfoort B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Wittenberg Amersfoort B.V." }
     },
     {
       "id": "woup_holding",
@@ -172,8 +148,7 @@
         "label": "Woup Holding B.V. (HOLDING)",
         "color": "#3397a6",
         "textColor": "#fff"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "pouw_dealer",
@@ -181,83 +156,70 @@
         "label": "Pouw Dealer B.V. (WOUP)",
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "ekris_retail_holding",
-      "data": { "label": "Ekris Retail Holding B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Ekris Retail Holding B.V." }
     },
     {
       "id": "de_beijer",
-      "data": { "label": "De Beijer B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "De Beijer B.V." }
     },
     {
       "id": "de_beijer_service",
       "data": {
         "label": "De Beijer Service B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "ekris_retail",
       "data": {
         "label": "Ekris Retail B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "k2m_holding",
-      "data": { "label": "K2M Holding B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "K2M Holding B.V." }
     },
     {
       "id": "nefkens_holding",
       
-      "data": { "label": "Nefkens Holding B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Nefkens Holding B.V." }
     },
     {
       "id": "nefkens",
-      "data": { "label": "Nefkens B.V." },
-      "position": { "x": 0, "y": 0 }
+      "data": { "label": "Nefkens B.V." }
     },
     {
       "id": "autobedrijf_keram_heerlen",
       "data": {
         "label": "Autobedrijf Keram Heerlen B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "auto_a_z_heerlen",
       "data": {
         "label": "Auto A-Z, Heerlen B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "keram_schadeherstel",
       "data": {
         "label": "Keram Schadeherstel B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "keram_motorrad",
       "data": {
         "label": "Keram Motorrad B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     },
     {
       "id": "autobedrijf_keram_maastricht",
       "data": {
         "label": "Autobedrijf Keram Maastricht B.V."
-      },
-      "position": { "x": 0, "y": 0 }
+      }
     }
   ],
   "edges": [
@@ -265,8 +227,6 @@
       "id": "e1",
       "source": "emil_frey_holding",
       "target": "emil_frey_nl",
-      "type": "custom",
-      "label": "100%",
       "data": {
         "sourceLabel": "100%"
       }
@@ -275,8 +235,6 @@
       "id": "e2",
       "source": "emil_frey_holding",
       "target": "kalono_ag",
-      "type": "custom",
-      "label": "100%",
       "markerEnd": {
         "type": "arrow",
         "width": 20,
@@ -290,8 +248,6 @@
       "id": "e3",
       "source": "kalono_ag",
       "target": "adimo_bv",
-      "type": "custom",
-      "label": "100%",
       "data": {
         "targetLabel": "100%"
       }
@@ -300,7 +256,6 @@
       "id": "e4",
       "source": "emil_frey_nl",
       "target": "adimo_bv",
-      "type": "custom",
       "data": {
         "lineType": "dashed"
       }
@@ -309,7 +264,6 @@
       "id": "e5",
       "source": "adimo_bv",
       "target": "emil_frey_vast",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -318,7 +272,6 @@
       "id": "e6",
       "source": "adimo_bv",
       "target": "diecar_vastgoed",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -326,14 +279,12 @@
     {
       "id": "e7",
       "source": "emil_frey_nl",
-      "target": "emil_frey_motors",
-      "type": "custom"
+      "target": "emil_frey_motors"
     },
     {
       "id": "e8",
       "source": "emil_frey_nl",
       "target": "mkb_lease",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -342,7 +293,6 @@
       "id": "e9",
       "source": "emil_frey_motors",
       "target": "qoets",
-      "type": "custom",
       "data": {
         "targetLabel": "50%"
       }
@@ -351,7 +301,6 @@
       "id": "e10",
       "source": "emil_frey_motors",
       "target": "emil_frey_facilitair",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -360,7 +309,6 @@
       "id": "e11",
       "source": "emil_frey_motors",
       "target": "terwolde_holding",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -369,7 +317,6 @@
       "id": "e12",
       "source": "terwolde_holding",
       "target": "terwolde",
-      "type": "custom",
       "data": {
         "sourceLabel": "100%"
       }
@@ -377,38 +324,32 @@
     {
       "id": "e13",
       "source": "terwolde_holding",
-      "target": "autobedrijf_oving",
-      "type": "custom"
+      "target": "autobedrijf_oving"
     },
     {
       "id": "e14",
       "source": "terwolde_holding",
-      "target": "autobedrijf_oving_raatle",
-      "type": "custom"
+      "target": "autobedrijf_oving_raatle"
     },
     {
       "id": "e15",
       "source": "terwolde_holding",
-      "target": "autobedrijf_oving_hattum",
-      "type": "custom"
+      "target": "autobedrijf_oving_hattum"
     },
     {
       "id": "e16",
       "source": "terwolde_holding",
-      "target": "autobedrijf_oving_emmeloord",
-      "type": "custom"
+      "target": "autobedrijf_oving_emmeloord"
     },
     {
       "id": "e17",
       "source": "emil_frey_motors",
-      "target": "emil_frey_schade_service",
-      "type": "custom"
+      "target": "emil_frey_schade_service"
     },
     {
       "id": "e18",
       "source": "emil_frey_motors",
       "target": "elgersma",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -417,7 +358,6 @@
       "id": "e19",
       "source": "emil_frey_motors",
       "target": "benzicar",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -426,7 +366,6 @@
       "id": "e20",
       "source": "emil_frey_motors",
       "target": "asian_motors_holding",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -435,7 +374,6 @@
       "id": "e21",
       "source": "emil_frey_motors",
       "target": "wittenberg_de_bois",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -444,7 +382,6 @@
       "id": "e22",
       "source": "wittenberg_de_bois",
       "target": "wittenberg_amersfoort",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -453,7 +390,6 @@
       "id": "e23",
       "source": "emil_frey_motors",
       "target": "woup_holding",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -462,7 +398,6 @@
       "id": "e24",
       "source": "asian_motors_holding",
       "target": "asian_motors_sales",
-      "type": "custom",
       "data": {
         "sourceLabel": "100%"
       }
@@ -470,14 +405,12 @@
     {
       "id": "e25",
       "source": "asian_motors_holding",
-      "target": "asian_motors_services",
-      "type": "custom"
+      "target": "asian_motors_services"
     },
     {
       "id": "e26",
       "source": "woup_holding",
       "target": "pouw_dealer",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -486,7 +419,6 @@
       "id": "e27",
       "source": "emil_frey_motors",
       "target": "ekris_retail_holding",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -495,7 +427,6 @@
       "id": "e28",
       "source": "emil_frey_motors",
       "target": "nefkens_holding",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -504,7 +435,6 @@
       "id": "e29",
       "source": "nefkens_holding",
       "target": "nefkens",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -513,7 +443,6 @@
       "id": "e30",
       "source": "ekris_retail_holding",
       "target": "de_beijer",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -522,7 +451,6 @@
       "id": "e31",
       "source": "ekris_retail_holding",
       "target": "de_beijer_service",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -531,7 +459,6 @@
       "id": "e32",
       "source": "ekris_retail_holding",
       "target": "ekris_retail",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -540,7 +467,6 @@
       "id": "e33",
       "source": "ekris_retail_holding",
       "target": "k2m_holding",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -549,7 +475,6 @@
       "id": "e34",
       "source": "k2m_holding",
       "target": "autobedrijf_keram_heerlen",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -558,7 +483,6 @@
       "id": "e35",
       "source": "k2m_holding",
       "target": "auto_a_z_heerlen",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -567,7 +491,6 @@
       "id": "e36",
       "source": "k2m_holding",
       "target": "keram_schadeherstel",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -576,7 +499,6 @@
       "id": "e37",
       "source": "k2m_holding",
       "target": "keram_motorrad",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }
@@ -585,7 +507,6 @@
       "id": "e38",
       "source": "k2m_holding",
       "target": "autobedrijf_keram_maastricht",
-      "type": "custom",
       "data": {
         "targetLabel": "100%"
       }

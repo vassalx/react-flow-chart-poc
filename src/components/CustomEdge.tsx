@@ -5,25 +5,24 @@ import {
   getSmoothStepPath,
 } from "@xyflow/react";
 import { CustomEdgeProps } from "../common/types";
+import { ReactNode } from "react";
 
 interface EdgeLabelProps {
-  transform: string;
-  label: string;
+  transform?: string;
+  label: string | ReactNode;
+  hasBorder?: boolean;
 }
 
 const EdgeLabel = (props: EdgeLabelProps) => {
-  const { transform, label } = props;
+  const { transform, label, hasBorder } = props;
   return (
     <div
       style={{
-        position: "absolute",
-        background: "transparent",
-        padding: 10,
-        fontSize: 12,
-        fontWeight: 700,
         transform,
       }}
-      className="nodrag nopan"
+      className={`nodrag nopan app__custom-edge ${
+        hasBorder ? "app__custom-edge__box" : ""
+      }`}
     >
       {label}
     </div>
@@ -40,13 +39,14 @@ const CustomEdge = (props: EdgeProps<CustomEdgeProps>) => {
     targetPosition,
     targetHandleId,
     sourceHandleId,
+    label,
     data,
     selectable, // eslint-disable-line @typescript-eslint/no-unused-vars
     deletable, // eslint-disable-line @typescript-eslint/no-unused-vars
     pathOptions, // eslint-disable-line @typescript-eslint/no-unused-vars
     ...edgeProps
   } = props;
-  const [edgePath] = getSmoothStepPath({
+  const [edgePath, labelX, labelY] = getSmoothStepPath({
     sourceX,
     sourceY,
     sourcePosition,
@@ -98,6 +98,13 @@ const CustomEdge = (props: EdgeProps<CustomEdgeProps>) => {
           <EdgeLabel
             transform={`${getTranslateTargetHandle()} translate(${targetX}px,${targetY}px)`}
             label={data.targetLabel}
+          />
+        )}
+        {label && (
+          <EdgeLabel
+            label={label}
+            transform={`translate(-50%, -50%) translate(${labelX}px,${labelY}px)`}
+            hasBorder
           />
         )}
       </EdgeLabelRenderer>

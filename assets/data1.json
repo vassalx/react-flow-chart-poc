@@ -2,82 +2,68 @@
   "nodes": [
     {
       "id": "1",
-      "data": { "label": "Volkswagen AG" },
-      "position": { "x": 250, "y": 0 }
+      "data": { "label": "Volkswagen AG" }
     },
     {
       "id": "2",
-      "data": { "label": "Volkswagen Financial Services AG" },
-      "position": { "x": 250, "y": 100 }
+      "data": { "label": "Volkswagen Financial Services AG" }
     },
     {
       "id": "3",
-      "data": { "label": "Volkswagen Finance Europe B.V.", "color": "#ccffcc" },
-      "position": { "x": 250, "y": 200 }
+      "data": { "label": "Volkswagen Finance Europe B.V.", "color": "#ccffcc" }
     },
     {
       "id": "4",
-      "data": { "label": "Volkswagen Bank GmbH" },
-      "position": { "x": 1300, "y": 100 }
+      "data": { "label": "Volkswagen Bank GmbH" }
     },
     {
       "id": "5",
       "data": {
         "label": "Volkswagen Pon Financial Services B.V.",
         "color": "#ffcc00"
-      },
-      "position": { "x": 250, "y": 300 }
+      }
     },
     {
       "id": "6",
       "data": {
         "label": "Volkswagen Bank GmbH branch office NL",
         "color": "#ffff00"
-      },
-      "position": { "x": 1350, "y": 200 }
+      }
     },
     {
       "id": "7",
-      "data": { "label": "DFM Verzekeringen B.V.", "color": "#ffcc00" },
-      "position": { "x": 250, "y": 500 }
+      "data": { "label": "DFM Verzekeringen B.V.", "color": "#ffcc00" }
     },
     {
       "id": "8",
-      "data": { "label": "DFM N.V.", "color": "#ffcc00" },
-      "position": { "x": 410, "y": 500 }
+      "data": { "label": "DFM N.V.", "color": "#ffcc00" }
     },
     {
       "id": "9",
-      "data": { "label": "Lease+Balans B.V.", "color": "#33cc33" },
-      "position": { "x": 580, "y": 500 }
+      "data": { "label": "Lease+Balans B.V.", "color": "#33cc33" }
     },
     {
       "id": "10",
       "data": {
         "label": "Volkswagen Pon Financial Services Real Estate B.V.",
         "color": "#33cc33"
-      },
-      "position": { "x": 740, "y": 500 }
+      }
     },
     {
       "id": "11",
-      "data": { "label": "Zuidlease B.V.", "color": "#33cc33" },
-      "position": { "x": 900, "y": 500 }
+      "data": { "label": "Zuidlease B.V.", "color": "#33cc33" }
     },
     {
       "id": "12",
-      "data": { "label": "100%" },
-      "position": { "x": 600, "y": 400 }
+      "data": { "label": "100%" }
     },
     {
       "id": "13",
-      "data": { "label": "Houdster-maatschappij Wilg B.V." },
-      "position": { "x": 1100, "y": 100 }
+      "data": { "label": "Houdster-maatschappij Wilg B.V." }
     },
     {
       "id": "14",
-      "data": { "label": "Pon Holdings B.V." },
-      "position": { "x": 1100, "y": 200 }
+      "data": { "label": "Pon Holdings B.V." }
     }
   ],
   "edges": [
@@ -85,86 +71,73 @@
       "id": "e14-5",
       "source": "14",
       "target": "5",
-      "label": "40%",
-      "type": "custom"
+      "label": "40%"
     },
     {
       "id": "e1-4",
       "source": "1",
       "target": "4",
-      "label": "100%",
-      "type": "custom"
+      "label": "100%"
     },
     {
       "id": "e2-3",
       "source": "2",
       "target": "3",
-      "label": "100%",
-      "type": "custom"
+      "label": "100%"
     },
     {
       "id": "e4-6",
       "source": "4",
       "target": "6",
-      "label": "Branch office",
-      "type": "custom"
+      "label": "Branch office"
     },
     {
       "id": "e3-5",
       "source": "3",
       "target": "5",
-      "label": "60%",
-      "type": "custom"
+      "label": "60%"
     },
     {
       "id": "e1-2",
       "source": "1",
       "target": "2",
-      "label": "100%",
-      "type": "custom"
+      "label": "100%"
     },
     {
       "id": "e5-12",
       "source": "5",
-      "target": "12",
-      "type": "custom"
+      "target": "12"
     },
     {
       "id": "e12-7",
       "source": "12",
-      "target": "7",
-      "type": "custom"
+      "target": "7"
     },
     {
       "id": "e12-8",
       "source": "12",
-      "target": "8",
-      "type": "custom"
+      "target": "8"
     },
     {
       "id": "e12-9",
       "source": "12",
-      "target": "9",
-      "type": "custom"
+      "target": "9"
     },
     {
       "id": "e12-10",
       "source": "12",
-      "target": "10",
-      "type": "custom"
+      "target": "10"
     },
     {
       "id": "e12-11",
       "source": "12",
-      "target": "11",
-      "type": "custom"
+      "target": "11"
     },
     {
       "id": "e13-14",
       "source": "13",
       "target": "14",
-      "label": "100%",
-      "type": "custom"
+      "label": "100%"
     }
   ]
 }

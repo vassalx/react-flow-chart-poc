@@ -7,8 +7,7 @@
       "data": {
         "label": "Mevr. E.N. van der Kallen (22-11-1993)",
         "handles": { "right": "source" }
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "2",
@@ -18,8 +17,7 @@
         "label": "Mr. M.A. van der Kallen (8-4-1989)",
         "handles": { "right": "source" }
       },
-      "sourcePosition": "right",
-      "type": "custom"
+      "sourcePosition": "right"
     },
     {
       "id": "3",
@@ -29,8 +27,7 @@
         "label": "Mr. A.M. van der Kallen (18-8-1991)",
         "handles": { "right": "source" }
       },
-      "sourcePosition": "right",
-      "type": "custom"
+      "sourcePosition": "right"
     },
     {
       "id": "4",
@@ -45,8 +42,7 @@
         "color": "#3397a6",
         "textColor": "#fff"
       },
-      "targetPosition": "left",
-      "type": "custom"
+      "targetPosition": "left"
     },
     {
       "id": "5",
@@ -56,8 +52,7 @@
         "label": "Riva Beheer B.V.",
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "6",
@@ -73,8 +68,7 @@
         },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "7",
@@ -89,8 +83,7 @@
         },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "19",
@@ -107,8 +100,7 @@
         "handles": { "right": "target" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "9",
@@ -119,8 +111,7 @@
         "handles": { "right": "target" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "10",
@@ -131,8 +122,7 @@
         "handles": { "left": "target", "bottom": "source" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "11",
@@ -143,8 +133,7 @@
         "handles": { "left": "target", "right": "target" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "12",
@@ -155,8 +144,7 @@
         "handles": { "left": "target", "right": "target" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "13",
@@ -167,8 +155,7 @@
         "handles": { "left": "target", "right": "target" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "14",
@@ -179,8 +166,7 @@
         "handles": { "left": "target", "right": "target" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "15",
@@ -191,8 +177,7 @@
         "handles": { "top": "target" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "16",
@@ -203,8 +188,7 @@
         "handles": { "top": "target", "left": "source", "bottom": "source" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "17",
@@ -215,8 +199,7 @@
         "handles": { "top": "target" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "18",
@@ -227,8 +210,7 @@
         "handles": { "top": "target", "bottom": "source" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "23",
@@ -239,8 +221,7 @@
         "handles": { "top": "target", "bottom": "source" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "20",
@@ -251,8 +232,7 @@
         "handles": { "top": "target", "bottom": "source" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "21",
@@ -263,8 +243,7 @@
         "handles": { "top": "target", "bottom": "source" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "22",
@@ -275,8 +254,7 @@
         "handles": { "top": "target", "bottom": "source" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     },
     {
       "id": "24",
@@ -287,8 +265,7 @@
         "handles": { "top": "target", "bottom": "source", "right": "target" },
         "color": ["#2a4d5e", "#3397a6"],
         "textColor": "#fff"
-      },
-      "type": "custom"
+      }
     }
   ],
   "edges": [
@@ -296,49 +273,42 @@
       "id": "e1-4",
       "source": "1",
       "target": "4",
-      "type": "custom",
       "sourceHandle": "right"
     },
     {
       "id": "e2-4",
       "source": "2",
       "target": "4",
-      "type": "custom",
       "sourceHandle": "right"
     },
     {
       "id": "e3-4",
       "source": "3",
       "target": "4",
-      "type": "custom",
       "sourceHandle": "right"
     },
     {
       "id": "e4-5",
       "source": "4",
       "target": "5",
-      "type": "custom",
       "label": "100%"
     },
     {
       "id": "e5-6",
       "source": "5",
       "target": "6",
-      "type": "custom",
       "label": "95%"
     },
     {
       "id": "e5-7",
       "source": "5",
       "target": "7",
-      "type": "custom",
       "label": "5%"
     },
     {
       "id": "e6-8",
       "source": "6",
       "target": "8",
-      "type": "custom",
       "label": "100%",
       "sourceHandle": "left"
     },
@@ -346,7 +316,6 @@
       "id": "e6-10",
       "source": "6",
       "target": "10",
-      "type": "custom",
       "label": "100%",
       "sourceHandle": "bottom"
     },
@@ -354,14 +323,12 @@
       "id": "e19-7",
       "source": "19",
       "target": "7",
-      "type": "custom",
       "targetHandle": "top"
     },
     {
       "id": "e6-9",
       "source": "6",
       "target": "9",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "right",
       "sourceHandle": "bottom"
@@ -370,7 +337,6 @@
       "id": "e10-11",
       "source": "10",
       "target": "11",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "left",
       "sourceHandle": "bottom"
@@ -379,7 +345,6 @@
       "id": "e10-12",
       "source": "10",
       "target": "12",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "left",
       "sourceHandle": "bottom"
@@ -388,7 +353,6 @@
       "id": "e10-13",
       "source": "10",
       "target": "13",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "left",
       "sourceHandle": "bottom"
@@ -397,7 +361,6 @@
       "id": "e10-14",
       "source": "10",
       "target": "14",
-      "type": "custom",
       "label": "35%",
       "targetHandle": "left",
       "sourceHandle": "bottom"
@@ -406,7 +369,6 @@
       "id": "e6-15",
       "source": "6",
       "target": "15",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "top",
       "sourceHandle": "bottom"
@@ -415,7 +377,6 @@
       "id": "e6-16",
       "source": "6",
       "target": "16",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "top",
       "sourceHandle": "bottom"
@@ -424,7 +385,6 @@
       "id": "e16-14",
       "source": "16",
       "target": "14",
-      "type": "custom",
       "label": "20%",
       "targetHandle": "left",
       "sourceHandle": "bottom"
@@ -433,7 +393,6 @@
       "id": "e16-17",
       "source": "16",
       "target": "17",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "top",
       "sourceHandle": "bottom"
@@ -442,7 +401,6 @@
       "id": "e16-18",
       "source": "16",
       "target": "18",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "top",
       "sourceHandle": "bottom"
@@ -451,7 +409,6 @@
       "id": "e16-23",
       "source": "16",
       "target": "23",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "top",
       "sourceHandle": "bottom"
@@ -460,7 +417,6 @@
       "id": "e16-20",
       "source": "16",
       "target": "20",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "top",
       "sourceHandle": "bottom"
@@ -469,7 +425,6 @@
       "id": "e16-21",
       "source": "16",
       "target": "21",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "top",
       "sourceHandle": "bottom"
@@ -478,7 +433,6 @@
       "id": "e16-22",
       "source": "16",
       "target": "22",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "top",
       "sourceHandle": "bottom"
@@ -487,7 +441,6 @@
       "id": "e18-24",
       "source": "18",
       "target": "24",
-      "type": "custom",
       "label": "100%",
       "targetHandle": "top",
       "sourceHandle": "bottom"
@@ -496,7 +449,6 @@
       "id": "e6-24",
       "source": "6",
       "target": "24",
-      "type": "custom",
       "targetHandle": "right",
       "sourceHandle": "right",
       "data": {
@@ -507,7 +459,6 @@
       "id": "e7-14",
       "source": "7",
       "target": "14",
-      "type": "custom",
       "targetHandle": "right",
       "sourceHandle": "bottom",
       "data": {
@@ -518,7 +469,6 @@
       "id": "e6-13",
       "source": "6",
       "target": "13",
-      "type": "custom",
       "targetHandle": "right",
       "sourceHandle": "right",
       "data": {
@@ -529,7 +479,6 @@
       "id": "e7-12",
       "source": "7",
       "target": "12",
-      "type": "custom",
       "targetHandle": "right",
       "sourceHandle": "bottom",
       "data": {
@@ -540,7 +489,6 @@
       "id": "e7-11",
       "source": "7",
       "target": "11",
-      "type": "custom",
       "targetHandle": "right",
       "sourceHandle": "bottom",
       "data": {
@@ -551,7 +499,6 @@
       "id": "e5-9",
       "source": "5",
       "target": "9",
-      "type": "custom",
       "targetHandle": "top",
       "sourceHandle": "left",
       "data": {
