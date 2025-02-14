@@ -1,5 +1,5 @@
-import { normalizeEdges } from "../common/normalizeEdges";
-import { normalizeNodes } from "../common/normalizeNodes";
+import normalizeEdges from "../common/normalizeEdges";
+import normalizeNodes from "../common/normalizeNodes";
 import { DiagramData } from "../common/types";
 
 interface UploadButtonProps {

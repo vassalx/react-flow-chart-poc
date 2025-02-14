@@ -1,4 +1,4 @@
-export const getLinearGradientFromColorsArray = (
+const getLinearGradientFromColorsArray = (
   colors: string[],
   degrees: number = 0
 ) => {
@@ -8,3 +8,5 @@ export const getLinearGradientFromColorsArray = (
     .join(", ");
   return `linear-gradient(${degrees}deg, ${gradientColors})`;
 };
+
+export default getLinearGradientFromColorsArray;

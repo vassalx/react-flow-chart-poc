@@ -38,19 +38,19 @@ body,
 }
 
 .react-flow__handle-top {
-  top: 4px;
+  top: 2px;
 }
  
 .react-flow__handle-bottom {
-  bottom: 4px;
+  bottom: 2px;
 }
  
 .react-flow__handle-left {
-  left: 4px;
+  left: 2px;
 }
  
 .react-flow__handle-right {
-  right: 4px;
+  right: 2px;
 }
 
 .app__custom-edge {

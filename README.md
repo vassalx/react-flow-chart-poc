@@ -46,6 +46,11 @@ Each edge represents a connection between two nodes and must contain the followi
 - `data` (object, optional): Contains additional information about the edge.
   - `sourceLabel` (string, optional): Label displayed near the source node.
   - `targetLabel` (string, optional): Label displayed near the target node.
+  - `markerStart` (string, optional): Type of marker near the source node.
+  - `markerEnd` (string, optional): Type of marker near the target node.
+      - `dot`
+      - `arrow`
+      - `arrowclosed`
   - `label` (string, optional): Label displayed in the middle of the edge.
   - `lineType` (string, optional): Defines the style of the edge line. Can be one of:
     - `dotted`

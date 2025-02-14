@@ -184,7 +184,7 @@
     },
     {
       "id": "nefkens_holding",
-      
+
       "data": { "label": "Nefkens Holding B.V." }
     },
     {
@@ -227,6 +227,7 @@
       "id": "e1",
       "source": "emil_frey_holding",
       "target": "emil_frey_nl",
+      "markerEnd": "dot",
       "data": {
         "sourceLabel": "100%"
       }
@@ -235,11 +236,7 @@
       "id": "e2",
       "source": "emil_frey_holding",
       "target": "kalono_ag",
-      "markerEnd": {
-        "type": "arrow",
-        "width": 20,
-        "height": 20
-      },
+      "markerEnd": "arrow",
       "data": {
         "targetLabel": "100%"
       }

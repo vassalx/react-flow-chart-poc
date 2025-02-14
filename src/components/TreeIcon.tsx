@@ -1,13 +1,14 @@
 import { useCallback } from "react";
 import getElkLayout, { ElkDirectionType } from "../common/getElkLayout";
 import { useReactFlow } from "@xyflow/react";
+
 export type TreeIconProps = {
   direction?: ElkDirectionType;
   isSelected?: boolean;
   onClick?: () => void;
 };
 
-export const TreeIcon = (props: TreeIconProps) => {
+const TreeIcon = (props: TreeIconProps) => {
   const { direction = "DOWN", isSelected, onClick } = props;
   const { setNodes, setEdges, getNodes, getEdges, fitView } = useReactFlow();
   const handleClick = useCallback(async () => {
@@ -53,3 +54,5 @@ export const TreeIcon = (props: TreeIconProps) => {
     </button>
   );
 };
+
+export default TreeIcon;

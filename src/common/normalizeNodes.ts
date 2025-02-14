@@ -1,8 +1,8 @@
 import { Node, Position } from "@xyflow/react";
-import { getLinearGradientFromColorsArray } from "./getLinearGradientFromColorsArray";
+import getLinearGradientFromColorsArray from "./getLinearGradientFromColorsArray";
 import { CustomNodeProps } from "./types";
 
-export const normalizeNodes = (nodes: CustomNodeProps[]): Node[] => {
+const normalizeNodes = (nodes: CustomNodeProps[]): Node[] => {
   return nodes.map((node) => ({
     ...node,
     style: {
@@ -16,3 +16,5 @@ export const normalizeNodes = (nodes: CustomNodeProps[]): Node[] => {
     handles: [{ x: 0, y: 0, position: "left" as Position, type: "source" }],
   }));
 };
+
+export default normalizeNodes;

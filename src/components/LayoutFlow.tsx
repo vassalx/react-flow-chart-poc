@@ -17,11 +17,11 @@ import { dataExample1 } from "../common/defaultData";
 import { DiagramData, edgeTypes, nodeTypes } from "../common/types";
 import DownloadButton from "./DownloadButton";
 import UploadButton from "./UploadButton";
-import { SelectExample } from "./SelectExample";
+import SelectExample from "./SelectExample";
 import getElkLayout, { ElkDirectionType } from "../common/getElkLayout";
 import PositioningTools from "./PositionTools";
 
-export const LayoutFlow = () => {
+const LayoutFlow = () => {
   const { setNodes, setEdges, getNodes, getEdges, fitView } = useReactFlow();
   const nodesInitialized = useNodesInitialized();
   const [direction, setDirection] = useState<ElkDirectionType>("DOWN");
@@ -75,3 +75,5 @@ export const LayoutFlow = () => {
     </ReactFlow>
   );
 };
+
+export default LayoutFlow;

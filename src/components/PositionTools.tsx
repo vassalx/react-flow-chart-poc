@@ -1,5 +1,5 @@
 import { ElkDirectionType } from "../common/getElkLayout";
-import { TreeIcon } from "./TreeIcon";
+import TreeIcon from "./TreeIcon";
 
 interface PositioningToolsProps {
   selectedDirection: ElkDirectionType;

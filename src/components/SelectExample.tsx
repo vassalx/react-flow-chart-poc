@@ -5,7 +5,7 @@ interface SelectExampleProps {
   onSelectExample: (data: DiagramData) => void;
 }
 
-export const SelectExample = (props: SelectExampleProps) => {
+const SelectExample = (props: SelectExampleProps) => {
   const { onSelectExample } = props;
   return (
     <>
@@ -20,3 +20,5 @@ export const SelectExample = (props: SelectExampleProps) => {
     </>
   );
 };
+
+export default SelectExample;
