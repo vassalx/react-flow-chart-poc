@@ -5,11 +5,14 @@ import {
   MiniMap,
   Panel,
   useReactFlow,
+  useNodesInitialized,
+  Edge,
+  Node,
 } from "@xyflow/react";
 
 import "@xyflow/react/dist/style.css";
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { dataExample1 } from "../common/defaultData";
 import { DiagramData, edgeTypes, nodeTypes } from "../common/types";
 import DownloadButton from "./DownloadButton";
@@ -20,34 +23,30 @@ import PositioningTools from "./PositionTools";
 
 export const LayoutFlow = () => {
   const { setNodes, setEdges, getNodes, getEdges, fitView } = useReactFlow();
+  const nodesInitialized = useNodesInitialized();
   const [direction, setDirection] = useState<ElkDirectionType>("DOWN");
 
-  const onUpdate = useCallback(async () => {
-    const { nodes, edges } = await getElkLayout(
-      getNodes(),
-      getEdges(),
-      direction
-    );
+  const updateELKLayout = async (oldNodes: Node[], oldEdges: Edge[]) => {
+    const { nodes, edges } = await getElkLayout(oldNodes, oldEdges, direction);
     setNodes(nodes);
     setEdges(edges);
-    fitView();
-  }, [getNodes, getEdges, setNodes, setEdges, fitView, direction]);
+  };
 
   const handleSelectFile = async (data: DiagramData) => {
-    const { nodes, edges } = await getElkLayout(
-      data.nodes,
-      data.edges,
-      direction
-    );
-    setNodes(nodes);
-    setEdges(edges);
-    fitView();
+    await updateELKLayout(data.nodes, data.edges);
   };
 
   useEffect(() => {
-    onUpdate();
+    updateELKLayout(getNodes(), getEdges());
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    console.log(nodesInitialized);
+    if (nodesInitialized) {
+      window.requestAnimationFrame(() => fitView());
+    }
+  }, [nodesInitialized, direction, fitView]);
 
   return (
     <ReactFlow
@@ -59,7 +58,7 @@ export const LayoutFlow = () => {
       defaultEdgeOptions={{ type: "custom" }}
     >
       <Background />
-      <MiniMap />
+      <MiniMap pannable zoomable />
       <Controls />
 
       <Panel position="top-left" className="mr-10">
