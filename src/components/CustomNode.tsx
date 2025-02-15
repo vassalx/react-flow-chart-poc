@@ -4,7 +4,7 @@ import {
   useUpdateNodeInternals,
   type NodeProps,
 } from "@xyflow/react";
-import { useEffect } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import { CustomHandles, CustomNodeProps } from "../common/types";
 
 const defaultHandles: CustomHandles = {
@@ -15,16 +15,20 @@ const defaultHandles: CustomHandles = {
 };
 
 const CustomNode = (props: NodeProps<CustomNodeProps>) => {
+  const { data, id, width, selected } = props;
+  const [label, setLabel] = useState<string | ReactNode>(data.label);
   const updateNodeInternals = useUpdateNodeInternals();
-  const { data, id, width = 150 } = props;
-  const { label, handles } = data;
+
   useEffect(() => {
     updateNodeInternals(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id, handles]);
+  }, [id, data.handles]);
+
+  const onChangeLabel = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setLabel(event.target.value);
+  };
 
   return (
-    // We add this class to use the same styles as React Flow's default nodes.
     <div
       style={{
         minWidth: width,
@@ -35,25 +39,37 @@ const CustomNode = (props: NodeProps<CustomNodeProps>) => {
         fontSize: 12,
       }}
     >
-      {label}
+      {selected ? (
+        <textarea
+          className="block p-1 w-full text-sm bg-gray-50 rounded-sm border border-gray-300"
+          id="w3review"
+          name="w3review"
+          defaultValue={typeof label === "string" ? label : ""}
+          rows={2}
+          cols={50}
+          onChange={onChangeLabel}
+        />
+      ) : (
+        label
+      )}
       <>
         <Handle
-          type={handles?.bottom || defaultHandles.bottom || "source"}
+          type={data.handles?.bottom || defaultHandles.bottom || "source"}
           position={Position.Bottom}
           id="bottom"
         />
         <Handle
-          type={handles?.left || defaultHandles.left || "source"}
+          type={data.handles?.left || defaultHandles.left || "source"}
           position={Position.Left}
           id="left"
         />
         <Handle
-          type={handles?.right || defaultHandles.right || "source"}
+          type={data.handles?.right || defaultHandles.right || "source"}
           position={Position.Right}
           id="right"
         />
         <Handle
-          type={handles?.top || defaultHandles.top || "target"}
+          type={data.handles?.top || defaultHandles.top || "target"}
           position={Position.Top}
           id="top"
         />

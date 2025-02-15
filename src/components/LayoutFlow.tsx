@@ -42,7 +42,6 @@ const LayoutFlow = () => {
   }, []);
 
   useEffect(() => {
-    console.log(nodesInitialized);
     if (nodesInitialized) {
       window.requestAnimationFrame(() => fitView());
     }
