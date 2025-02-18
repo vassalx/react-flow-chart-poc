@@ -28,6 +28,10 @@ const CustomNode = (props: NodeProps<CustomNodeProps>) => {
     setLabel(event.target.value);
   };
 
+  useEffect(() => {
+    setLabel(data.label);
+  }, [data.label]);
+
   return (
     <div
       style={{
