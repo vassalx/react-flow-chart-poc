@@ -2,115 +2,142 @@
   "nodes": [
     {
       "id": "1",
-      "data": { "label": "Microsoft Corporation", "color": "yellow" }
+      "data": { "label": "Volkswagen AG" }
     },
-    { "id": "2", "data": { "label": "Satya Nadella - CEO", "type": "person" } },
-
+    {
+      "id": "2",
+      "data": { "label": "Volkswagen Financial Services AG" }
+    },
     {
       "id": "3",
-      "data": { "label": "Azure (Cloud Services)", "color": "yellow" }
+      "data": { "label": "Volkswagen Finance Europe B.V.", "color": "#ccffcc" }
     },
     {
-      "id": "3a",
-      "data": { "label": "Scott Guthrie - EVP, Cloud & AI", "type": "person" }
+      "id": "4",
+      "data": { "label": "Volkswagen Bank GmbH" }
     },
-
-    { "id": "4", "data": { "label": "Windows & Devices", "color": "yellow" } },
-    {
-      "id": "4a",
-      "data": {
-        "label": "Panos Panay - EVP, Windows & Devices",
-        "type": "person"
-      }
-    },
-
     {
       "id": "5",
-      "data": { "label": "Office & Productivity", "color": "yellow" }
+      "data": {
+        "label": "Volkswagen Pon Financial Services B.V.",
+        "color": "#ffcc00"
+      }
     },
-    {
-      "id": "5a",
-      "data": { "label": "Rajesh Jha - EVP, Office & Teams", "type": "person" }
-    },
-
     {
       "id": "6",
-      "data": { "label": "Gaming (Xbox, Activision)", "color": "yellow" }
+      "data": {
+        "label": "Volkswagen Bank GmbH branch office NL",
+        "color": "#ffff00"
+      }
     },
     {
-      "id": "6a",
-      "data": { "label": "Phil Spencer - CEO, Gaming", "type": "person" }
+      "id": "7",
+      "data": { "label": "DFM Verzekeringen B.V.", "color": "#ffcc00" }
     },
-
-    { "id": "7", "data": { "label": "LinkedIn", "color": "yellow" } },
     {
-      "id": "7a",
-      "data": { "label": "Ryan Roslansky - CEO, LinkedIn", "type": "person" }
+      "id": "8",
+      "data": { "label": "DFM N.V.", "color": "#ffcc00" }
     },
-
-    { "id": "8", "data": { "label": "GitHub", "color": "yellow" } },
     {
-      "id": "8a",
-      "data": { "label": "Thomas Dohmke - CEO, GitHub", "type": "person" }
+      "id": "9",
+      "data": { "label": "Lease+Balans B.V.", "color": "#33cc33" }
+    },
+    {
+      "id": "10",
+      "data": {
+        "label": "Volkswagen Pon Financial Services Real Estate B.V.",
+        "color": "#33cc33"
+      }
+    },
+    {
+      "id": "11",
+      "data": { "label": "Zuidlease B.V.", "color": "#33cc33" }
+    },
+    {
+      "id": "12",
+      "data": { "label": "100%" }
+    },
+    {
+      "id": "13",
+      "data": { "label": "Houdster-maatschappij Wilg B.V." }
+    },
+    {
+      "id": "14",
+      "data": { "label": "Pon Holdings B.V." }
     }
   ],
   "edges": [
     {
-      "id": "e1",
-      "source": "2",
-      "target": "1",
-      "label": "CEO of",
-      "data": { "lineType": "dashed" }
-    },
-
-    {
-      "id": "e2",
-      "source": "3a",
-      "target": "3",
-      "label": "Leads",
-      "data": { "lineType": "dashed" }
-    },
-    {
-      "id": "e3",
-      "source": "4a",
-      "target": "4",
-      "label": "Leads",
-      "data": { "lineType": "dashed" }
-    },
-    {
-      "id": "e4",
-      "source": "5a",
+      "id": "e14-5",
+      "source": "14",
       "target": "5",
-      "label": "Leads",
-      "data": { "lineType": "dashed" }
+      "label": "40%"
     },
     {
-      "id": "e5",
-      "source": "6a",
+      "id": "e1-4",
+      "source": "1",
+      "target": "4",
+      "label": "100%"
+    },
+    {
+      "id": "e2-3",
+      "source": "2",
+      "target": "3",
+      "label": "100%"
+    },
+    {
+      "id": "e4-6",
+      "source": "4",
       "target": "6",
-      "label": "Leads",
-      "data": { "lineType": "dashed" }
+      "label": "Branch office"
     },
     {
-      "id": "e6",
-      "source": "7a",
-      "target": "7",
-      "label": "CEO of",
-      "data": { "lineType": "dashed" }
+      "id": "e3-5",
+      "source": "3",
+      "target": "5",
+      "label": "60%"
     },
     {
-      "id": "e7",
-      "source": "8a",
-      "target": "8",
-      "label": "CEO of",
-      "data": { "lineType": "dashed" }
+      "id": "e1-2",
+      "source": "1",
+      "target": "2",
+      "label": "100%"
     },
-
-    { "id": "e8", "source": "1", "target": "3" },
-    { "id": "e9", "source": "1", "target": "4" },
-    { "id": "e10", "source": "1", "target": "5" },
-    { "id": "e11", "source": "1", "target": "6" },
-    { "id": "e12", "source": "1", "target": "7" },
-    { "id": "e13", "source": "1", "target": "8" }
+    {
+      "id": "e5-12",
+      "source": "5",
+      "target": "12"
+    },
+    {
+      "id": "e12-7",
+      "source": "12",
+      "target": "7"
+    },
+    {
+      "id": "e12-8",
+      "source": "12",
+      "target": "8"
+    },
+    {
+      "id": "e12-9",
+      "source": "12",
+      "target": "9"
+    },
+    {
+      "id": "e12-10",
+      "source": "12",
+      "target": "10"
+    },
+    {
+      "id": "e12-11",
+      "source": "12",
+      "target": "11"
+    },
+    {
+      "id": "e13-14",
+      "source": "13",
+      "target": "14",
+      "label": "100%"
+    }
   ]
 }
