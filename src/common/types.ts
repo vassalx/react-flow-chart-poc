@@ -3,7 +3,6 @@ import {
   BuiltInNode,
   Edge,
   EdgeTypes,
-  HandleType,
   Node,
   NodeTypes,
 } from "@xyflow/react";
@@ -17,17 +16,10 @@ export interface DiagramData {
   edges: Edge[];
   nodes: Node[];
 }
-export interface CustomHandles {
-  left?: HandleType;
-  right?: HandleType;
-  top?: HandleType;
-  bottom?: HandleType;
-}
 
 export type CustomNodeProps = Node<
   {
     label: string | ReactNode;
-    handles?: CustomHandles;
     color?: string | string[];
     textColor?: string;
   },

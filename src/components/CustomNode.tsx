@@ -5,24 +5,17 @@ import {
   type NodeProps,
 } from "@xyflow/react";
 import { ReactNode, useEffect, useState } from "react";
-import { CustomHandles, CustomNodeProps } from "../common/types";
-
-const defaultHandles: CustomHandles = {
-  left: "source",
-  right: "source",
-  bottom: "source",
-  top: "target",
-};
+import { CustomNodeProps } from "../common/types";
 
 const CustomNode = (props: NodeProps<CustomNodeProps>) => {
-  const { data, id, width, selected } = props;
+  const { data, id, width, selected, sourcePosition, targetPosition } = props;
   const [label, setLabel] = useState<string | ReactNode>(data.label);
   const updateNodeInternals = useUpdateNodeInternals();
 
   useEffect(() => {
     updateNodeInternals(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id, data.handles]);
+  }, [id, sourcePosition, targetPosition]);
 
   const onChangeLabel = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
     setLabel(event.target.value);
@@ -57,26 +50,30 @@ const CustomNode = (props: NodeProps<CustomNodeProps>) => {
         label
       )}
       <>
-        <Handle
-          type={data.handles?.bottom || defaultHandles.bottom || "source"}
-          position={Position.Bottom}
-          id="bottom"
-        />
-        <Handle
-          type={data.handles?.left || defaultHandles.left || "source"}
-          position={Position.Left}
-          id="left"
-        />
-        <Handle
-          type={data.handles?.right || defaultHandles.right || "source"}
-          position={Position.Right}
-          id="right"
-        />
-        <Handle
-          type={data.handles?.top || defaultHandles.top || "target"}
-          position={Position.Top}
-          id="top"
-        />
+        {sourcePosition === "bottom" ? (
+          <Handle type="source" position={Position.Bottom} id="bottom" />
+        ) : null}
+        {targetPosition === "bottom" ? (
+          <Handle type="target" position={Position.Bottom} id="bottom" />
+        ) : null}
+        {sourcePosition === "left" ? (
+          <Handle type="source" position={Position.Left} id="left" />
+        ) : null}
+        {targetPosition === "left" ? (
+          <Handle type="target" position={Position.Left} id="left" />
+        ) : null}
+        {sourcePosition === "top" ? (
+          <Handle type="source" position={Position.Top} id="top" />
+        ) : null}
+        {targetPosition === "top" ? (
+          <Handle type="target" position={Position.Top} id="top" />
+        ) : null}
+        {sourcePosition === "right" ? (
+          <Handle type="source" position={Position.Right} id="right" />
+        ) : null}
+        {targetPosition === "right" ? (
+          <Handle type="target" position={Position.Right} id="right" />
+        ) : null}
       </>
     </div>
   );
